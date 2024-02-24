@@ -1,8 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Employee} from "./employee";
 import {EmployeeService} from "./employee.service";
-import {HttpErrorResponse} from "@angular/common/http";
-import {Observable, Subject, takeUntil} from "rxjs";
+import {Observable, Subject} from "rxjs";
 
 @Component({
   selector: 'app-root',
